@@ -33,7 +33,7 @@ const Header: React.FC<{ user: User | null; onLogout: () => void; activeTab: App
       <div className="flex items-center gap-3 cursor-pointer max-w-[60%] md:max-w-none" onClick={() => user && onNavigate('DASHBOARD')}>
         <div className="w-6 h-6 bg-stone-900 shrink-0"></div>
         <h1 className="font-serif text-sm md:text-lg font-semibold tracking-wide text-stone-900 leading-tight">
-          RÚBRICA PARA EVALUAR EL PORTAFOLIO DE GRADO DE COMPOSICIÓN MUSICAL DE LA UNIVERSIDAD DE ANTIOQUIA
+          RÚBRICA PARA EVALUAR EN EL ÁREA DE COMPOSICIÓN MUSICAL DE LA UNIVERSIDAD DE ANTIOQUIA
         </h1>
       </div>
       
